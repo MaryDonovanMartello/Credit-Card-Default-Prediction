@@ -7,25 +7,25 @@
 The goal of this project was to design predictive binary classification models to predict whether credit card account holders will default on their payments in the next month.  The models address the imbalance in the target variable.  Gradient Boosting and neural network models are highlighted.  The paper and presentation walk through the data understanding and preparation, different models tested, methodology, evaluation and anticipated follow-up steps to the project.  
 
 **Tools**
-    •  Scikit-learn 
-    •  Keras
-    •  Seaborn
-    •  Matplotlib
-    •  Numpy
-    •  Pandas
-    •  Scipy
+* Scikit-learn 
+* Keras
+* Seaborn
+* Matplotlib
+* Numpy
+* Pandas
+* Scipy
 
 **Data**
 
 http://archive.ics.uci.edu/ml 
 
 **Models / Methods / Metrics**
-    •  Gradient Boosting Classification 
-    •  Artificial Neural Network
-    •  Random Forest
-    •  Principal Component Analysis
-    •  Log-Transformation and Scaling
-    •  Recall, Log-Loss and Binary Crossentropy Loss
+* Gradient Boosting Classification 
+* Artificial Neural Network
+* Random Forest
+* Principal Component Analysis
+* Log-Transformation and Scaling
+* Recall, Log-Loss and Binary Crossentropy Loss
 
 **Notebooks**
 
