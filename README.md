@@ -9,7 +9,7 @@ The goal of this project was to design predictive binary classification models t
 **Tools**
     •  Scikit-learn 
     •  Keras
-    •  Seaborn|
+    •  Seaborn
     •  Matplotlib
     •  Numpy
     •  Pandas
