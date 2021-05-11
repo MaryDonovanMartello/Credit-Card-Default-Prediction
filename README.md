@@ -27,6 +27,44 @@ http://archive.ics.uci.edu/ml
 * Log-Transformation and Scaling
 * Recall, Log-Loss and Binary Crossentropy Loss
 
+**Results**
+
+The Gradient Boosting Classification model had the best Recall and Log Loss Error scores.  62.43% of the actual default accounts were labeled as true positives.  The Log Loss Error was .4545.  The Artificial Neural Network had a Recall score of .6989 and a binary crossentropy loss of .5958.  These scores resulted from addressing the imbalanced target variable.
+
+## Project Preview
+
+### Exploratory Data Analysis
+
+The EDA shows there are distinctions between the default records and the non-default records.
+
+![ECD](/images/credit card/ECD.PNG)
+
+![PAY1](/images/credit card/Pay1.PNG)
+
+![MEAN](/images/credit card/mean.PNG)
+
+### Principal Component Analysis
+
+PCA was implemented because of multicollinearity between groups of input variables.
+
+![PCA](/images/credit card/PCA.PNG)
+
+### Modeling
+
+The imbalanced target variable was addressed by using predicted probabilities for positive outcome based on best classification threshold, and for the Artificial Neural Network, by weighting the binary target classes.
+
+
+### Evaluation
+
+**Gradient Boosting Classification, Logistic Regression and Random Forest Models:**
+
+![RESULTS1](/images/credit card/Results1.PNG)
+
+**Artificial Neural Networks:**
+
+![ANNRESULTS](/images/credit card/ResultsANN.PNG)
+
+
 **Notebooks**
 
 1_EDA_Prep
